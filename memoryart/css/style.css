@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: 'Caladea', ;
+    font-family: 'Roboto', ;
+    font-family: 'Spartan', ;
+    font-size: 14px;
+    color: #6c7279;
+    -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+/* container 
+============================*/
+
+.container {
+    /* width: 100%;
+    max-width: 1170px; */
+    margin: 0 auto;
+}
+
+
+/* Header 
+============================*/
+
+.header {
+    width: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.header__logo {
+    padding-right: 70px;
+}
+
+
+/* nav 
+============================*/
+
+.nav {
+    display: flex;
+    font-size: 17px;
+    font-weight: 700;
+    left: 50px;
+}
+
+.nav__link {
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    transition: opacity .1s linear;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+
+/* intro
+============================*/
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 760px;
+    background: url(https://static.tildacdn.com/tild6539-3861-4139-b434-336631366136/_-1.jpg) center/cover no-repeat;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__title {
+    margin: 1;
+    font-family: 'Caladea', sans-serif;
+    font-size: 50px;
+    line-height: 1.1;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.intro__subtitle {
+    margin-bottom: 70px;
+    margin: 1;
+    font-family: 'Caladea', sans-serif;
+    font-size: 45px;
+    line-height: 1.1;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+/* button
+============================*/
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    border-radius: 15px;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background .1s linear;
+}
+
+.btn--red {
+    background-color: papayawhip;
+}
+
+.btn--red:hover {
+    background-color: rgb(160, 147, 126);
+}
+
+.select {
+    size: 1;
+    position: absolute;
+    width: 100px;
+    clip: rect(2px 82px 20px 2px);
+    background: pink;
+    top: 10px;
+}
+
+
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+
+@media screen and (min-width:0\0) {
+    select {
+        background: none;
+        padding: 5px;
+    }
+}
+
+
+/* for location style
+.telo1 {
+    color: red;
+}
+
+.telo2 {
+    color: green;
+}
+
+.telo3 {
+    color: blue;
+}
+*/
